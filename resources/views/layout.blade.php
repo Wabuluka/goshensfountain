@@ -46,8 +46,32 @@
     
 
         <footer class="footer">
-          <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+          <div class="container mt-1">
+            <div class="row">
+                <div class="col-3">
+                    <h4 class="small"><strong>get to know us</strong></h4>
+                </div>
+                <div class="col-3">
+                    <h4 class="small"><strong>connect</strong></h4>
+                    
+                </div>
+                <div class="col-3">
+                    <h4 class="small"><strong>resources</strong></h4>
+                </div>
+                <div class="col-3">
+                    <h4 class="small"><strong>get involved</strong></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="small"><strong>About Us</strong></h4>
+                    <p class="lead">Sint irure aliquip ex sint commodo labore tempor ad dolore occaecat eiusmod cupidatat eiusmod commodo in do cillum id.</p>
+                </div>
+                <div class="col-4">
+                    <p>Sint irure aliquip ex sint commodo labore tempor ad dolore occaecat eiusmod cupidatat eiusmod commodo in do cillum id.</p>
+                </div>
+            </div>
+            <div class="row"></div>
           </div>
         </footer>
     </body>
