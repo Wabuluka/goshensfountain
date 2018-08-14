@@ -9,3 +9,69 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+//this the beginning of my css
+html {
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+/*landing page definitions for the default screen size*/
+#LandingPage{
+	background: #222;
+	height: 590px;
+}
+.LandingPage{
+	
+}
+.LandingPage .LanginPageLeft{
+	padding-top: 120px;
+	color: #fff;
+}
+.LandingPage .LanginPageRight{
+	padding-top: 120px;
+	color: #fff;
+}
+
+/*---------------------######--------------------------------*/
+#LandingPageSimpleIntro{
+	height: 500px;
+
+}
+.LandingPageSimpleIntro{
+	padding-top: 100px;
+}
+
+
+/*----------------------######----------------------------------*/
+.LangingPageVideoCard{
+	height: 500px;
+}
+
+
+
+/*-----------------------######---------------------------------*/
+#LandingPageCallForDonation{
+	background: #222;
+	height: 300px;
+}
+.LandingPageCallForDonation{
+	padding-top: 120px;
+	padding-left: 400px;
+}
+
+/*-----------------------###-------------------------------------*/
+.LandingPageBlogHeading{
+	padding: 40px;
+}
+footer{
+	background-color: #222;	
+}
+.footer {
+	height: 200px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	color: #888;
+}

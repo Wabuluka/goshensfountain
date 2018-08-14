@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-12 mt-1 text-lg-center">
                     <h1><strong>Goshen’s Fountain of Nutrition and Health</strong></h1>
-                    <p class="lead">Qui ut occaecat nostrud nisi eu incididunt incididunt magna dolore mollit in velit officia sunt reprehenderit enim ad excepteur tempor aute sint laboris ut ut.</p>
+                    <p class="lead">Goshen’s Fountain of Nutrition and Health is an indigenous Non-Governmental Organization (NGO) Registered on the 30th September 2015 under the Uganda National Bureau for NGOs. Goshen’s has implemented different Nutrition, Health  & Economic Empowerment projects among OVCs and their caregivers, PLWHIV & TB, Pregnant mothers, Low income women and the youth in & out of school. Across this spectrum, a total of 2,500 livelihoods have been positively impacted.</p>
                 </div>
             </div>
         </div>
@@ -34,19 +34,19 @@
                       <div class="card rounded-0">
                         <div class="card-body">
                           <h5 class="card-title">OUR MISSION</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">Improving Nutrition and Heath through Community Participation</p>
                         </div>
                       </div>
                       <div class="card rounded-0">
                         <div class="card-body">
                           <h5 class="card-title">OUR VISSION</h5>
-                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text">A Productive and Health Population</p>
                         </div>
                       </div>
                       <div class="card rounded-0">
                         <div class="card-body">
-                          <h5 class="card-title">MOTTO</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <h5 class="card-title">GOAL</h5>
+                          <p class="card-text">To empower individuals, Households and Communities with Resources for Sustainable food and Nutrition Security</p>
                         </div>
                       </div>
                     </div>
