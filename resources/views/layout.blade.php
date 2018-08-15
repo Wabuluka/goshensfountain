@@ -19,19 +19,19 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
     </head>
     <body>
-        <nav id="begin" class="navbar navbar-expand-lg navbar-dark ">
+        <nav id="begin" class="navbar navbar-expand-lg navbar-dark fixed-top">
           <div class="container">
-              <a class="navbar-brand" href="https://acuityuganda.org/">goshensfountain.org</a>
+              <a class="navbar-brand" href="https://goshensfountain.org/">goshensfountain.org</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Home</a>
+                    <a class="nav-link disabled" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Custom</a>
+                    <a class="nav-link disabled" href="https://goshensfountain/whoweare">WHO WE ARE</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="#">Custom</a>
@@ -54,7 +54,7 @@
                 <div class="col-6">
                   <ul class="nav nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Who we are</a>
+                      <a class="nav-link" href="https://goshensfountain/whoweare">Who we are</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">What we do</a>

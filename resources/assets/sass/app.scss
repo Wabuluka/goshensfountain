@@ -9,6 +9,9 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+//whoweare page styles
+@import "whoweare"
+
 //this the beginning of my css
 html {
 	position:relative;
@@ -73,6 +76,12 @@ footer{
 		}
 	}
 }
+#whoweare{
+	#sticky-sidebar {
+		position:fixed;
+		max-width: 20%;
+		}
+	}
 /*--------------------------*/
 #missionSection{
 	margin-bottom: 50px;
