@@ -28,13 +28,15 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="https://goshensfountain.org/whoweare">WHO WE ARE</a>
+                    <a class="nav-link disabled" href="/">HOME</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="#">Custom</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="https://goshensfountain.org/whoweare">
+                    WHAT WE DO
+                  </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="#">Custom</a>
@@ -86,7 +88,7 @@
             </div>
             
             <div class="row mt-2">
-                <div class="col-12 text-lg-center">
+                <div class="col-12 text-lg-right">
                     <p class="small">&copy; goshensfountain 2018</p>
                 </div>
             </div>

@@ -10471,6 +10471,28 @@ a.text-dark:focus {
   }
 }
 
+#whoweare {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#whoweare .sidebar {
+  position: relative;
+  /* I am the fallback */
+  /* Give it everything you got! (use an auto prefixer...) */
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0;
+  /* Required  */
+}
+
+#whoweare .main-content {
+  position: relative;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -10528,6 +10550,11 @@ footer div ul li a {
 
 footer div ul li a i {
   color: #999999;
+}
+
+#whoweare #sticky-sidebar {
+  position: fixed;
+  max-width: 20%;
 }
 
 /*--------------------------*/
