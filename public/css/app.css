@@ -10472,74 +10472,84 @@ a.text-dark:focus {
 }
 
 html {
+  position: relative;
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-  /* Margin bottom by footer height */
+/*the navigation bar*/
+
+#begin {
+  background: #eeeedd;
+  height: 50px;
+}
+
+#begin div ul li a {
+  color: #333333;
+}
+
+#begin {
+  background: #eeeedd;
+}
+
+#begin div ul li:hover {
+  background: rgba(68, 51, 85, 0.9);
+}
+
+#begin div ul li:hover a {
+  color: #eeeedd;
 }
 
 /*landing page definitions for the default screen size*/
 
 #LandingPage {
-  background: #222;
-  height: 590px;
+  background-image: url("/img/netballteam.jpg");
+  height: 700px;
 }
 
-.LandingPage .LanginPageLeft {
-  padding-top: 120px;
-  color: #fff;
-}
-
-.LandingPage .LanginPageRight {
-  padding-top: 120px;
+#LandingPage .LanginPageLeft {
+  padding-top: 200px;
   color: #fff;
 }
 
 /*---------------------######--------------------------------*/
 
 #LandingPageSimpleIntro {
-  height: 500px;
-}
-
-.LandingPageSimpleIntro {
-  padding-top: 100px;
-}
-
-/*----------------------######----------------------------------*/
-
-.LangingPageVideoCard {
-  height: 500px;
-}
-
-/*-----------------------######---------------------------------*/
-
-#LandingPageCallForDonation {
-  background: #222;
-  height: 300px;
-}
-
-.LandingPageCallForDonation {
-  padding-top: 120px;
-  padding-left: 400px;
-}
-
-/*-----------------------###-------------------------------------*/
-
-.LandingPageBlogHeading {
-  padding: 40px;
+  min-height: 100px;
+  padding-top: 50px;
 }
 
 footer {
-  background-color: #222;
+  background-color: #eeeedd;
+}
+
+footer div ul li a {
+  color: #999999;
+}
+
+footer div ul li a i {
+  color: #999999;
+}
+
+/*--------------------------*/
+
+#missionSection {
+  margin-bottom: 50px;
+}
+
+/*-----------homepage video-----*/
+
+#homepageVid {
+  padding-bottom: 150px;
+}
+
+#homepageVid .right {
+  padding: 50px;
 }
 
 .footer {
-  height: 200px;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  color: #888;
+  color: #333333;
 }
 

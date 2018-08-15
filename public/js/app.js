@@ -13906,7 +13906,20 @@ window.Vue = __webpack_require__(36);
 Vue.component('example-component', __webpack_require__(39));
 
 var app = new Vue({
-  el: '#app'
+    el: '#app'
+});
+
+/**
+*Holds the navbar onscroll
+*/
+$(window).on("scroll", function () {
+    var position = $("#begin").offset();
+
+    if ($(window).scrollTop() > position.top - 80) {
+        $("nav").addClass("active");
+    } else {
+        $("nav").removeClass("active");
+    };
 });
 
 /***/ }),
