@@ -31,7 +31,7 @@
                     <a class="nav-link disabled" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="https://goshensfountain/whoweare">WHO WE ARE</a>
+                    <a class="nav-link disabled" href="https://goshensfountain.org/whoweare">WHO WE ARE</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="#">Custom</a>
@@ -54,7 +54,7 @@
                 <div class="col-6">
                   <ul class="nav nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="https://goshensfountain/whoweare">Who we are</a>
+                      <a class="nav-link" href="https://goshensfountain.org/whoweare">Who we are</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">What we do</a>
