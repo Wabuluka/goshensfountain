@@ -2,7 +2,7 @@
 	margin-top: 60px;
 	margin-bottom: 100px;
 	.sidebar {
-		position: relative; /* I am the fallback */
+		position: sticky; /* I am the fallback */
 
 	    /* Give it everything you got! (use an auto prefixer...) */
 	    position: -webkit-sticky;

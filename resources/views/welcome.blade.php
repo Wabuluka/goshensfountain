@@ -1,5 +1,11 @@
 @extends('layout')
 
+
+@section('title')
+{{trans('strings.Home')}}
+@stop
+@section('desctription', 'Goshens Fountain of Nutrition and Health is operating a Mobile Nutrition Clinic to address Nutrition issues among the children, pregnant and lactating mothers and PLWHIV/AIDS undergoing Anti-Retroviral Treatment. We are currently running the Nutrition clinic in Goma Health Center 3 in Mukono – Uganda and the surrounding villages. We shall be rolling out the clinic services to the rest of the country')
+@section('keywords', 'Goshens, Fountain, Health, Uganda, Pregnant Women in Uganda, OVC, mukono, children with AIDS, Nutrition in Uganda')
 @section('content')
 <section id="LandingPage">
         <div class="container LandingPage">

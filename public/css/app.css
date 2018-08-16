@@ -10477,7 +10477,7 @@ a.text-dark:focus {
 }
 
 #whoweare .sidebar {
-  position: relative;
+  position: sticky;
   /* I am the fallback */
   /* Give it everything you got! (use an auto prefixer...) */
   position: -webkit-sticky;
