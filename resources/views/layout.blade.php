@@ -5,8 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="OiPp-fJ5SM0jVeNfA9aEsLb4F8wRZ-DYzynTGuBU3HA" />
+        <meta name="description" content="@yield('description')">
+        <meta name="keywords" content="@yield('keywords')">
 
-        <title>Goshens Fountain</title>
+        <title>Goshens Fountain -@yield('title')</title>
 
         <!--font awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -31,15 +33,19 @@
                     <a class="nav-link disabled" href="/">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Custom</a>
+                    <a class="nav-link disabled" href="https://goshensfountain.org/whatwedo">
+                      ABOUT US
+                    </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="https://goshensfountain.org/whatwedo">
-                    WHAT WE DO
-                  </a>
+                      WHAT WE DO
+                    </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Custom</a>
+                    <a class="nav-link disabled" href="https://goshensfountain.org/contactus">
+                      CONTACT US
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -56,16 +62,24 @@
                 <div class="col-6">
                   <ul class="nav nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="https://goshensfountain.org/whatwedo">Who we are</a>
+                      <a class="nav-link" href="https://goshensfountain.org/whatwedo">
+                        WHAT WE DO
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">What we do</a>
+                      <a class="nav-link" href="https://goshensfountain.org/aboutus">
+                        ABOUT US
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="https://goshensfountain.org/contactus">
+                        CONTACT US
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link disabled" href="#">
+                        BLOG
+                      </a>
                     </li>
                   </ul>
                 </div>
