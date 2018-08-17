@@ -36,7 +36,7 @@
                     <a class="nav-link disabled" href="/">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="https://goshensfountain.org/whatwedo">
+                    <a class="nav-link disabled" href="https://goshensfountain.org/aboutus">
                       ABOUT US
                     </a>
                   </li>
