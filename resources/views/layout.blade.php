@@ -23,7 +23,10 @@
     <body>
         <nav id="begin" class="navbar navbar-expand-lg navbar-dark fixed-top">
           <div class="container">
-              <a class="navbar-brand" href="https://goshensfountain.org/">goshensfountain.org</a>
+              <a class="navbar-brand" href="https://goshensfountain.org/">
+                 <img src="img/goshens.png">
+                   goshensfountain
+               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -103,7 +106,7 @@
             
             <div class="row mt-2">
                 <div class="col-12 text-lg-right">
-                    <p class="small">&copy; goshensfountain 2018</p>
+                    <p class="small">&copy; <a href="/">weblotts.com</a></p>
                 </div>
             </div>
           </div>

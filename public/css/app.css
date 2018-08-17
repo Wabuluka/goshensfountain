@@ -10493,6 +10493,35 @@ a.text-dark:focus {
   position: relative;
 }
 
+#aboutus {
+  margin-top: 50px;
+  background-image: url("/img/netballteam.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#aboutus .starter-template {
+  color: #fff;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.aboutus {
+  margin-bottom: 100px;
+}
+
+.aboutusDonate {
+  color: #fff;
+  margin-top: 50px;
+  background-image: url("/img/netballteam.jpg");
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -10526,6 +10555,9 @@ html {
 #LandingPage {
   background-image: url("/img/netballteam.jpg");
   height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #LandingPage .LanginPageLeft {
