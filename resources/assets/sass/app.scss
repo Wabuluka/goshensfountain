@@ -23,7 +23,7 @@ html {
 /*the navigation bar*/
 #begin {
     background: #eeeedd;
-    height: 50px;
+    height: 70px;
     div{
     	ul{
     		li{
@@ -32,6 +32,9 @@ html {
     			}
     		}
     }
+    }
+    img{
+    	height: 70px;
     }
 }
 //hover on nav
