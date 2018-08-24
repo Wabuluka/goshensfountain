@@ -34,33 +34,38 @@
         </div>
     </section>
     <!--Section for the vision on the homepage-->
-    <<section id="missionSection">
+    <section id="missionSection">
         <div class="container">
-            <div class="row text-lg-center">
-                <div class="col-2"></div>
+            <div class="row">
+                <div class="col-4">
+                    <p>img</p>
+                </div>
                 <div class="col-8">
-                    <div class="card-group">
-                      <div class="card rounded-0">
-                        <div class="card-body">
-                          <h5 class="card-title">MISSION</h5>
-                          <p class="card-text"><strong>Improving Nutrition and Heath through Community Participation</strong></p>
-                        </div>
+                    <div class="card mt-1" >
+                      <div class="card-body">
+                        <i class="fas fa-sun fa-7x"></i>
+                        <h5 class="card-title">Our Mission</h5>
+                        <p class="card-text"><strong>Improving Nutrition and Heath through Community Participation</strong></p>
                       </div>
-                      <div class="card rounded-0">
-                        <div class="card-body">
-                          <h5 class="card-title">MAIN GOAL</h5>
-                          <p class="card-text"><strong>To empower individuals, Households and Communities with Resources for Sustainable food and Nutrition Security</strong></p>
-                        </div>
+                    </div>
+
+                    <div class="card mt-1" >
+                      <div class="card-body">
+                        <i class="fas fa-compass fa-7x"></i>
+                        <h5 class="card-title">Our Vision</h5>
+                        <p class="card-text"><strong>A Productive and Health Population</strong></p>
                       </div>
-                      <div class="card rounded-0">
-                        <div class="card-body">
-                          <h5 class="card-title">VISION</h5>
-                          <p class="card-text"><strong>A Productive and Health Population</strong></p>
-                        </div>
+                    </div>
+
+                    <div class="card mt-1">
+                      <div class="card-body">
+                        <i class="fas fa-signal fa-7x"></i>
+                        <h5 class="card-title">Our Goal</h5>
+                        <p class="card-text"><strong>To empower individuals, Households and Communities with Resources for Sustainable food and Nutrition Security</strong></p>
                       </div>
                     </div>
                 </div>
-                <div class="col-2"></div>
+                
             </div>
         </div>
     </section>
