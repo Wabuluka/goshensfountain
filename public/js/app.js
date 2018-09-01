@@ -13915,11 +13915,52 @@ var app = new Vue({
 $(window).on("scroll", function () {
     var position = $("#begin").offset();
 
-    if ($(window).scrollTop() > position.top - 80) {
+    if ($(window).scrollTop() > position.top - 58) {
         $("nav").addClass("active");
     } else {
         $("nav").removeClass("active");
     };
+});
+
+/**
+fot the what we do page
+
+*/
+$(window).on(function () {
+    var position = $("#begin-whatwedo").offset();
+    $("nav").addClass("active");
+
+    //if ($(window).scrollTop() > position.top - 58) {
+    // $("nav").addClass("active");
+    // } else {
+    //  $("nav").removeClass("active");
+    // };
+});
+
+var lastId = void 0;
+var cur = [];
+
+// This should probably be throttled.
+// Especially because it triggers during smooth scrolling.
+// https://lodash.com/docs/4.17.10#throttle
+// You could do like...
+// window.addEventListener("scroll", () => {
+//    _.throttle(doThatStuff, 100);
+// });
+// Only not doing it here to keep this Pen dependency-free.
+
+window.addEventListener("scroll", function (event) {
+    var fromTop = window.scrollY;
+
+    mainNavLinks.forEach(function (link) {
+        var section = document.querySelector(link.hash);
+
+        if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+            link.classList.add("current");
+        } else {
+            link.classList.remove("current");
+        }
+    });
 });
 
 /***/ }),
@@ -47217,7 +47258,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\ExampleComponent.vue"
+Component.options.__file = "resources/assets/js/components/ExampleComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -47226,9 +47267,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ca92eac", Component.options)
+    hotAPI.createRecord("data-v-7168fb6a", Component.options)
   } else {
-    hotAPI.reload("data-v-0ca92eac", Component.options)
+    hotAPI.reload("data-v-7168fb6a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -47415,7 +47456,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ca92eac", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-7168fb6a", module.exports)
   }
 }
 
