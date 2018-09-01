@@ -1,9 +1,9 @@
-@extends('layout')
+@extends('others')
 @section('content')
-<section id="whoweare">
+<section id="what-we-do">
 	<div class="container">
 		<div class="row">
-			<div class="col-3 sidebar">
+			<div class="col-md-3">
 				<div class="list-group">
 				  <a href="#MobileClinic" class="list-group-item list-group-item-action rounded-0">
 				    The Mobile Nutrition Clinic
@@ -37,7 +37,7 @@
 				  </a>
 				</div>
 			</div>
-			<div class="col-9 main-content text-justify">
+			<div class="col-md-9">
 				<section id="MobileClinic">
 					<div class="">
 						<h4>The Mobile Nutrition Clinic</h4>
@@ -144,9 +144,8 @@
 						<p>A recipe guide/manual detailing preparation protocols for the various meals will be developed once the households come up with their own new recipes and this will be translated in the local language to enable households follow procedure.</p>
 					</div>
 				</section>
-				
 			</div>
 		</div>
 	</div>
 </section>
-@stop
+@endsection

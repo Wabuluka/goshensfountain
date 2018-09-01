@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('others')
 @section('content')
 
 <section id="contact">

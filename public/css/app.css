@@ -1,4 +1,145 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -32,7 +173,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Raleway", sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -71,13 +212,13 @@ section {
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #f5f8fa;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -399,36 +540,36 @@ h6,
 
 h1,
 .h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
 }
 
 h2,
 .h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 h3,
 .h3 {
-  font-size: 1.575rem;
+  font-size: 1.75rem;
 }
 
 h4,
 .h4 {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
 }
 
 h5,
 .h5 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 h6,
 .h6 {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .lead {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -500,7 +641,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 
 .blockquote-footer {
@@ -520,7 +661,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #f5f8fa;
+  background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1942,7 +2083,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #f5f8fa;
+  background-color: #fff;
 }
 
 .table-sm th,
@@ -2115,7 +2256,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #f5f8fa;
+  color: #fff;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -2127,7 +2268,7 @@ pre code {
 }
 
 .table-dark {
-  color: #f5f8fa;
+  color: #fff;
   background-color: #212529;
 }
 
@@ -2220,10 +2361,10 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  height: calc(2.19rem + 2px);
+  height: calc(2.25rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -2298,20 +2439,20 @@ select.form-control:focus::-ms-value {
   padding-bottom: calc(0.375rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
@@ -2321,7 +2462,7 @@ select.form-control:focus::-ms-value {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   margin-bottom: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #212529;
   background-color: transparent;
   border: solid transparent;
@@ -2335,17 +2476,17 @@ select.form-control:focus::-ms-value {
 }
 
 .form-control-sm {
-  height: calc(1.68125rem + 2px);
+  height: calc(1.8125rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
 
 .form-control-lg {
-  height: calc(2.6875rem + 2px);
+  height: calc(2.875rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -2438,8 +2579,8 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.7875rem;
-  line-height: 1.6;
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
   border-radius: 0.25rem;
@@ -2519,8 +2660,8 @@ textarea.form-control {
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -2562,8 +2703,8 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
-  font-size: 0.7875rem;
-  line-height: 1.6;
+  font-size: 0.875rem;
+  line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
   border-radius: 0.25rem;
@@ -2643,8 +2784,8 @@ textarea.form-control {
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -2780,8 +2921,8 @@ textarea.form-control {
           user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
   border-radius: 0.25rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3492,7 +3633,7 @@ fieldset:disabled a.btn {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -3500,7 +3641,7 @@ fieldset:disabled a.btn {
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -3589,7 +3730,7 @@ input[type="button"].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -3754,7 +3895,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -4036,9 +4177,9 @@ input[type="button"].btn-block {
           align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #495057;
   text-align: center;
   white-space: nowrap;
@@ -4057,9 +4198,9 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
-  height: calc(2.6875rem + 2px);
+  height: calc(2.875rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -4069,9 +4210,9 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
-  height: calc(1.68125rem + 2px);
+  height: calc(1.8125rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -4099,7 +4240,7 @@ input[type="button"].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 1.44rem;
+  min-height: 1.5rem;
   padding-left: 1.5rem;
 }
 
@@ -4122,8 +4263,8 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -4146,7 +4287,7 @@ input[type="button"].btn-block {
 
 .custom-control-label::before {
   position: absolute;
-  top: 0.22rem;
+  top: 0.25rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -4162,7 +4303,7 @@ input[type="button"].btn-block {
 
 .custom-control-label::after {
   position: absolute;
-  top: 0.22rem;
+  top: 0.25rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -4220,9 +4361,9 @@ input[type="button"].btn-block {
 .custom-select {
   display: inline-block;
   width: 100%;
-  height: calc(2.19rem + 2px);
+  height: calc(2.25rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #495057;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
@@ -4263,14 +4404,14 @@ input[type="button"].btn-block {
 }
 
 .custom-select-sm {
-  height: calc(1.68125rem + 2px);
+  height: calc(1.8125rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%;
 }
 
 .custom-select-lg {
-  height: calc(2.6875rem + 2px);
+  height: calc(2.875rem + 2px);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%;
@@ -4280,7 +4421,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: calc(2.19rem + 2px);
+  height: calc(2.25rem + 2px);
   margin-bottom: 0;
 }
 
@@ -4288,7 +4429,7 @@ input[type="button"].btn-block {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: calc(2.19rem + 2px);
+  height: calc(2.25rem + 2px);
   margin: 0;
   opacity: 0;
 }
@@ -4317,9 +4458,9 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 1;
-  height: calc(2.19rem + 2px);
+  height: calc(2.25rem + 2px);
   padding: 0.375rem 0.75rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
@@ -4333,9 +4474,9 @@ input[type="button"].btn-block {
   bottom: 0;
   z-index: 3;
   display: block;
-  height: 2.19rem;
+  height: 2.25rem;
   padding: 0.375rem 0.75rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #495057;
   content: "Browse";
   background-color: #e9ecef;
@@ -4357,16 +4498,16 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -4563,8 +4704,8 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #f5f8fa;
-  border-color: #dee2e6 #dee2e6 #f5f8fa;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4640,10 +4781,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.32rem;
-  padding-bottom: 0.32rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4695,7 +4836,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -5488,7 +5629,7 @@ input[type="button"].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -5504,7 +5645,7 @@ input[type="button"].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
@@ -5677,7 +5818,7 @@ input[type="button"].btn-block {
 }
 
 .alert-dismissible {
-  padding-right: 3.85rem;
+  padding-right: 4rem;
 }
 
 .alert-dismissible .close {
@@ -5826,7 +5967,7 @@ input[type="button"].btn-block {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.675rem;
+  font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
@@ -6103,7 +6244,7 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -6253,7 +6394,7 @@ button.close {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .modal-body {
@@ -6324,10 +6465,10 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -6338,7 +6479,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -6449,10 +6590,10 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Raleway", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -6463,7 +6604,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.7875rem;
+  font-size: 0.875rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -6625,7 +6766,7 @@ button.close {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: inherit;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
@@ -10471,152 +10612,283 @@ a.text-dark:focus {
   }
 }
 
-#whoweare {
-  margin-top: 60px;
-  margin-bottom: 100px;
-}
-
-#whoweare .sidebar {
-  position: sticky;
-  /* I am the fallback */
-  /* Give it everything you got! (use an auto prefixer...) */
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
-  /* Required  */
-}
-
-#whoweare .main-content {
-  position: relative;
-}
-
-#aboutus {
-  margin-top: 50px;
-  background-image: url("/img/netballteam.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#aboutus .starter-template {
-  color: #fff;
-  padding-top: 100px;
-  text-align: center;
-}
-
-.aboutus {
-  margin-bottom: 100px;
-}
-
-.aboutusDonate {
-  color: #fff;
-  margin-top: 50px;
-  background-image: url("/img/netballteam.jpg");
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#contact {
-  margin-top: 50px;
-}
-
 html {
-  position: relative;
   min-height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
 }
 
-/*the navigation bar*/
-
-#begin {
-  background: #eeeedd;
-  height: 70px;
+body {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
-#begin div ul li a {
-  color: #333333;
+h1 {
+  font-weight: 200;
+  color: white;
+  padding: 20px 0;
 }
 
-#begin img {
-  height: 70px;
+nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  color: #01FF01;
+  height: 58px;
+  line-height: 58px;
+  padding: 0 1rem;
+  font-size: 14px;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  text-decoration: none;
 }
 
-#begin {
-  background: #eeeedd;
+nav .container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
 }
 
-#begin div ul li:hover {
-  background: rgba(68, 51, 85, 0.9);
+nav img {
+  margin-top: 10px;
+  height: 75px;
+  background: #fff;
+  border-radius: 50%;
 }
 
-#begin div ul li:hover a {
-  color: #eeeedd;
+nav a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-/*landing page definitions for the default screen size*/
-
-#LandingPage {
-  background-image: url("/img/netballteam.jpg");
-  height: 700px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+nav ul.navbar-menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  list-style: none;
 }
 
-#LandingPage .LanginPageLeft {
-  padding-top: 200px;
+nav ul.navbar-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul.navbar-menu li a {
   color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
-/*---------------------######--------------------------------*/
+nav.active {
+  background: #FFB600;
+  color: #111;
+  line-height: 58px;
+  width: 100%;
+  height: 58px;
+  padding: 0 1rem;
+  font-size: 14px;
+}
 
-#LandingPageSimpleIntro {
-  min-height: 100px;
-  padding-top: 50px;
+nav.active .container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+nav.active img {
+  margin-top: 0;
+  height: 58px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+nav.active ul.navbar-menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+nav.active ul.navbar-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav.active ul.navbar-menu li a {
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+/*
+	before the slide, properties of the header
+*/
+
+header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("/img/netballteam.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  height: 500px;
+}
+
+/*
+	general description of the begin id that detects when a certain height is reached
+*/
+
+#begin {
+  height: 120vh;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  background: #fff;
 }
 
 footer {
-  background-color: #eeeedd;
-}
-
-footer div ul li a {
-  color: #999999;
-}
-
-footer div ul li a i {
-  color: #999999;
-}
-
-#whoweare #sticky-sidebar {
-  position: fixed;
-  max-width: 20%;
-}
-
-/*--------------------------*/
-
-#missionSection {
-  margin-bottom: 50px;
-}
-
-/*-----------homepage video-----*/
-
-#homepageVid {
-  padding-bottom: 150px;
-}
-
-#homepageVid .right {
-  padding: 50px;
-}
-
-.footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
-  color: #333333;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+  bottom: 0;
+}
+
+footer .nav-link {
+  padding: 0.1rem 0rem;
+}
+
+footer ul li a {
+  color: #222;
+  padding-left: -50px;
+}
+
+.navigation {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  color: #01FF01;
+  height: 58px;
+  line-height: 58px;
+  padding: 0 1rem;
+  font-size: 14px;
+  -webkit-transition: .5s all ease;
+  transition: .5s all ease;
+  text-decoration: none;
+}
+
+.navigation .container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.navigation img {
+  margin-top: 5px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.navigation a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navigation ul.navbar-menu {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  list-style: none;
+}
+
+.navigation ul.navbar-menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navigation ul.navbar-menu li a {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+/*
+for the homepage
+*/
+
+#landingpage .container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#landingpage .LanginPageLeft {
+  padding-top: 150px;
+  color: #fff;
+}
+
+#LandingPageSimpleIntro {
+  min-height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #222;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+}
+
+#LandingPageSimpleIntro .container .LandingPageSimpleIntro .row .intro {
+  width: 70%;
+}
+
+.pricing .mission-card {
+  background: #00FF00;
+  color: #222;
+}
+
+.pricing .goal-card {
+  background: #8E93F8;
+}
+
+.pricing .vision-card {
+  background: #FCCBCD;
+  color: #222;
+}
+
+#what-we-do {
+  margin-top: 58px;
+}
+
+#what-we-do .col-md-3 {
+  margin-top: 10px;
+}
+
+#what-we-do .col-md-9 {
+  margin-bottom: 150px;
+  margin-top: 10px;
 }
 

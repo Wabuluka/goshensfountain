@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('others')
 @section('content')
 
 <section id="aboutus">
@@ -69,4 +69,4 @@
 
 
 
-@stop
+@endsection

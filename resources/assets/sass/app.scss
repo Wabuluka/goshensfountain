@@ -1,111 +1,19 @@
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Variables
-@import "variables";
-
-// Bootstrap
+// Modules and Variables
+@import "partials/reset";
+@import "partials/base";
 @import '~bootstrap/scss/bootstrap';
-
-
-//whoweare page styles
-@import "whoweare";
-//aboutus
-@import "aboutus";
-//contactus
-@import "contactus";
-//this the beginning of my css
-html {
-	position:relative;
-  	min-height: 100%;
-}
-/*the navigation bar*/
-#begin {
-    background: #eeeedd;
-    height: 70px;
-    div{
-    	ul{
-    		li{
-    			a{
-    				color: 	#333333;
-    			}
-    		}
-    }
-    }
-    img{
-    	height: 70px;
-    }
-}
-//hover on nav
-#begin {
-    background: #eeeedd;
-    div{
-    	ul{
-    		li:hover{
-    				background: rgba(68,51,85, .9);
-    				a{
-    					color: #eeeedd;
-    				}
-    			}
-    		}
-    }
-}
-/*landing page definitions for the default screen size*/
-#LandingPage{
-	background-image: url("/img/netballteam.jpg");
-	height: 700px;
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-	.LanginPageLeft{
-	padding-top: 200px;
-	color: #fff;
-	}
-}
-/*---------------------######--------------------------------*/
-#LandingPageSimpleIntro{
-	min-height: 100px;
-	padding-top: 50px;
-}
-//footer
-footer{
-	background-color: #eeeedd;	
-	div{
-		ul{
-			li{
-				a{
-					color: #999999;
-					i{
-						color: #999999;
-					}
-				}
-			}
-		}
-	}
-}
-#whoweare{
-	#sticky-sidebar {
-		position:fixed;
-		max-width: 20%;
-		}
-	}
-/*--------------------------*/
-#missionSection{
-	margin-bottom: 50px;
-}
-/*-----------homepage video-----*/
-#homepageVid{
-	padding-bottom: 150px;
-	.right{
-		padding: 50px;
-	}
-}
-
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	color: 	#333333;
-}
+// Partials
+@import "partials/nav";
+@import "partials/homepage";
+@import "partials/whatwedo";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/figures";
+@import "partials/grids";
+// ...
+// Third-party
+@import "vendor/colorpicker";
+@import "vendor/jquery.ui.core";
